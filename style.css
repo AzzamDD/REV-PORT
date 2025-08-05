@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.wrapper{
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+    
+}
+
+nav .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.menu{
+    width: 200px;
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+nav{
+    background-color: #3F72AF;
+    color: white;
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+}
+
+header{
+    background-color: #DBE2EF;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+}
+
+.gede{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.gede h4{
+    color: #3F72AF;
+    font-size: 40px;
+    padding: 0px
+    
+}
+.gede h5{
+    color: black;
+    margin: 20px;
+    padding:5px;
+    font-size: 60px;
+    line-height: 80px;
+    text-transform: uppercase;
+
+}
+.gede p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    color: #3F72AF;
+}
+
+
+#tentang-saya{
+    background-color: aquamarine;
+    color: black;
+}
+
+#tentang-saya .wrapper{
+    padding: 50px;
+}
+
+#tentang-saya .wrapper h4{
+    text-align: center;
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#tentang-saya {
+    background: white;
+    color: #222;
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tentang-saya .wrapper {
+    background: rgba(255,255,255,0.85);
+    padding: 50px 40px;
+    border-radius: 24px;
+    box-shadow: 0 8px 32px 0 rgba(31,38,135,0.18);
+    max-width: 700px;
+    margin: auto;
+
+}
+
+#tentang-saya .wrapper h4 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 20px 0;
+    padding: 0;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+    color: #3F72AF;
+    letter-spacing: 2px;
+    text-shadow: 1px 2px 8px #dbe2ef66;
+}
+
+#tentang-saya .wrapper p {
+    font-size: 22px;
+    color: #222;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    letter-spacing: 1px;
+    opacity: 0.9;
+
+
+}
+.sosmed {
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    z-index: 200;
+}
+
+.sosmed img {
+    width: 40px;
+    height: 40px;
+ 
+}
